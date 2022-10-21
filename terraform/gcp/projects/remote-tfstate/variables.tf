@@ -1,5 +1,5 @@
 variable "default_region" {
-  type = string
+  type    = string
   default = "asia-northeast1"
 }
 

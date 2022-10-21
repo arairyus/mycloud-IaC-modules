@@ -1,5 +1,5 @@
 variable "default_region" {
-  type = string
+  type    = string
   default = "asia-northeast1"
 }
 
@@ -8,7 +8,7 @@ variable "project_id" {
 }
 
 variable "project_name" {
-  type = string
+  type    = string
   default = "sandbox"
 }
 

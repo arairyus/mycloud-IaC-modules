@@ -7,6 +7,6 @@ variable "ip_cidr_range" {
 }
 
 variable "region" {
-  type = string
+  type    = string
   default = "asia-northeast1"
 }
