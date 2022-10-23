@@ -1,0 +1,23 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+#name: tfsec-pr
+#
+#on:
+#  pull_request:
+#    branches: ["develop"]
+#
+#jobs:
+#  tfsec:
+#    name: tfsec
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v2
+#      - name: Terraform security scan
+#        uses: triat/terraform-security-scan@v3.0.0
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#

@@ -27,3 +27,12 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+# secret file and private file
+**/*secret*.tfvars
+**/*secret*.tf
+**/backend.tf
+
+
+# other repo
+**/3tier-webapp/code/*
