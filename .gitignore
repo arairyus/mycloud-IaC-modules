@@ -39,3 +39,6 @@ override.tf.json
 
 # zip
 *.zip
+
+# direnv
+.envrc
