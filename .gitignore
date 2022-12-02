@@ -36,3 +36,9 @@ override.tf.json
 
 # other repo
 **/3tier-webapp/code/*
+
+# zip
+*.zip
+
+# direnv
+.envrc
