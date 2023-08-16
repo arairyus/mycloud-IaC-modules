@@ -16,9 +16,13 @@ resource "google_sql_database_instance" "db" {
     ip_configuration {
       ipv4_enabled    = false
       private_network = var.vpc_id
+      require_ssl     = true
     }
     location_preference {
       zone = var.zone
+    }
+    backup_configuration {
+      enabled = true
     }
   }
   deletion_protection = false
